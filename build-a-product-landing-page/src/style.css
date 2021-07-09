@@ -1,0 +1,173 @@
+html{
+  background-color: black;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+header{
+  position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  background-color: black;
+  z-index: 99;
+    
+}
+#page-wrapper{
+  position: relative;
+}
+div{
+  display:block;
+}
+a{
+  color: white;
+}
+  
+#hero{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+}
+#email{
+  text-rendering: auto;
+  width: 200px;
+  padding: 5px;
+}
+.btn{
+  margin-top: 10px;
+  padding: 0 20px;
+  cursor: pointer;
+}
+form{
+  display:block;
+}
+.container{
+  max-width: 1000px;
+  width: 100%;
+  margin:0 auto;
+}
+nav > ul{
+  width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.logo{
+  width:60vw;
+}
+
+.grid{
+  display:flex;
+  padding-bottom: 25px;
+}
+.icon{
+  filter: grayscale(1) invert(1) brightness(2);
+  display:flex ;
+  justify-content: center;
+  width:150px;
+  height:150px;
+  padding-right: 50px;
+}
+.stake-icon{
+  filter: invert(1);
+  display:flex;
+  justify-content: center;
+  width:150px;
+  height:150px;
+  padding-right: 50px;
+}
+#features .desc{
+  display:block;
+  justify-content: center;
+  height: 125px;
+  width: 80vw;
+  padding: 5px;
+}
+
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
+#resources{
+  margin-top: 60px;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.community{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  text-align: center;
+  width: calc(100%/3);
+  margin: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  border: 2px solid white;
+  border-radius: 3px;
+}
+.community > .level{
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 25px;
+  border-bottom: 1px solid white;
+}
+ul{
+  display:block;
+  
+
+}
+li{
+  list-style:none;
+  padding: 10px;
+}
+.community >button{
+    background-color: white;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+* {
+  padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+#how-it-works{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+footer{
+  font-weight: 300;
+  display:flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background: black;
+  border-top: 4px solid white;
+}
